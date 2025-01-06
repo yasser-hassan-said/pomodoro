@@ -1,0 +1,185 @@
+body{
+
+   font-family:  'ArialRounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+   background-color: rgb(186, 73, 73);
+   color: white;
+   overflow-x: hidden;
+   transition: background-color 2s ease;
+}
+header{
+    width:600px;
+ 
+    font-size: 10px;
+}
+#headerContainer{
+
+
+  width:100vw;
+  display: flex;
+  justify-content: center;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+  }
+  #logoContainer{
+    display: flex;
+   
+    align-items: center;
+
+  }
+  #logo{
+    width: 30px;
+   
+  }
+
+
+
+
+main{
+
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+    #container{
+
+      
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+       width: 530px;
+       background-color: rgb(255,255,255,0.1);
+      
+       border-radius: 3%;
+       height: 400px;
+
+       
+    }
+    #menu{
+        display: flex;
+        gap: 0 2vw;
+       
+        justify-content: center;
+        width:530px;
+       
+        font-size: 20px;
+        font-weight: 100;
+        
+    }
+    #counter{
+       text-align: center;
+        width: 530px;
+        font-size: 100px;
+        font-weight: 700;
+
+    }
+    #buttonContainer{
+width: 530px;
+text-align: center;
+
+        
+    }
+    button{
+
+        width:  200px;
+        height: 50px;
+        border-radius: 2%;
+        color: rgb(186, 73, 73);
+        font-size: 20px;
+        border-color: white;
+        font-weight: 700;
+        border-width: 0;
+   transition: color 2s ease;
+      
+    }
+    #pomodoro{
+        background-color:  rgba(0, 0, 0, 0.15);
+        border-radius: 5%;
+        padding:0.2vw;
+
+    }
+
+    #shortBreak{
+   
+      border-radius: 5%;
+      padding:0.2vw;
+
+  }    
+  #longBreak{
+
+    border-radius: 5%;
+    padding:0.2vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px) {
+  
+
+  #menu{
+    font-size: 15px !important;
+    
+  }
+
+  #counter{
+
+     font-size: 70px;
+  }
+
+  }
+
+
+  @media (max-width:600px) {
+
+    button{
+
+      width:  200px;
+      height: 50px;
+
+    }
+
+    header{
+      width:98vw;
+
+    }
+    #headerContainer{
+        margin-left: -2vw;
+    }
+    #logo{
+      width: 20px;
+     
+    }
+
+    
+    #container{
+      width:80vw;
+      height: 300px;
+
+    }
+    #counter{
+      width:80vw;
+     
+    }
+    #buttonContainer{
+
+      width:80vw;
+    }
+    #menu{
+     
+      width:80vw;
+    }
+  }
